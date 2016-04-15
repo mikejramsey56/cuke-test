@@ -1,0 +1,21 @@
+{
+  "name": "veggie",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "color": {
+      "type": "string",
+      "required": true
+    },
+    "yummy": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
